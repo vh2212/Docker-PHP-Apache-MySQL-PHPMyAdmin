@@ -40,6 +40,7 @@ Configurar el contenedor de la página.
 * extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/pdo.so
 * extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/pdo_mysql.so
 * nano php.ini-production y hacer lo mismo que el archivo anterior.
+* exit
 * docker restart [contenedor Apache]
 
 *Nota
