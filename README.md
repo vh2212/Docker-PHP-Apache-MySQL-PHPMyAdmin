@@ -27,6 +27,8 @@ Crear una Base de datos
 * USE labsol;
 * CREATE TABLE presencia (presencia_id INT NOT NULL AUTO_INCREMENT, direccion VARCHAR(45) NOT NULL, tiempoArea INT NOT NULL, last_update TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, PRIMARY KEY  (presencia_id));
 * INSERT INTO presencia values (default, "entrada", 20, current_timestamp);
+* exit
+* exit
 # PASO 5.
 Configurar el contenedor de la página.
 * docker exec -it [contenedor Apache] /bin/bash
