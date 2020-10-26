@@ -33,11 +33,13 @@ Configurar el contenedor de la página.
 * cd /
 * docker-php-ext-install pdo pdo_mysql pdo_pgsql
 * cd /usr/local/etc/php
-* vi php.ini-development
+* apt-get update
+* apt-get install nano
+* nano php.ini-development
 * Buscar el apartado Dynamic Extensions, en la parte de "or with a path", agregar las lineas.
 * extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/pdo.so
 * extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/pdo_mysql.so
-* vi php.ini-production y hacer lo mismo que el archivo anterior.
+* nano php.ini-production y hacer lo mismo que el archivo anterior.
 * docker restart [contenedor Apache]
 
 *Nota
